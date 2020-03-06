@@ -73,6 +73,15 @@ object Form6: TForm6
     TabOrder = 3
     OnClick = Button3Click
   end
+  object Button4: TButton
+    Left = 544
+    Top = 232
+    Width = 75
+    Height = 25
+    Caption = 'A Test btn'
+    TabOrder = 4
+    OnClick = Button4Click
+  end
   object cds: TClientDataSet
     Aggregates = <>
     Params = <>

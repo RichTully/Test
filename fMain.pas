@@ -7,6 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Datasnap.DBClient, Vcl.StdCtrls,
   Vcl.Grids, Vcl.DBGrids;
 // This was a comment that was edited
+// Now adding this in Delphi
 type
   TForm6 = class(TForm)
     Button1: TButton;
@@ -18,11 +19,13 @@ type
     Button2: TButton;
     Button3: TButton;
     cdsNum: TIntegerField;
+    Button4: TButton;
     procedure Button1Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure DBGrid1TitleClick(Column: TColumn);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -105,6 +108,11 @@ end;
 procedure TForm6.Button3Click(Sender: TObject);
 begin
   cds.LoadFromFile('Numbers.cds');
+end;
+
+procedure TForm6.Button4Click(Sender: TObject);
+begin
+  showmessage('This was a test');
 end;
 
 procedure TForm6.DBGrid1TitleClick(Column: TColumn);
