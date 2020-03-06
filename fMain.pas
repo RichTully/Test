@@ -6,7 +6,7 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Datasnap.DBClient, Vcl.StdCtrls,
   Vcl.Grids, Vcl.DBGrids;
-
+// This was a comment that was edited
 type
   TForm6 = class(TForm)
     Button1: TButton;
