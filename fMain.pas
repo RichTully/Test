@@ -7,7 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Datasnap.DBClient, Vcl.StdCtrls,
   Vcl.Grids, Vcl.DBGrids;
 // This was a comment that was edited
-// Now adding this in Delphi
+// Now adding this in Delphi - Richard Tully added this
 type
   TForm6 = class(TForm)
     Button1: TButton;
