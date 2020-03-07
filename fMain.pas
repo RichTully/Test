@@ -8,6 +8,7 @@ uses
   Vcl.Grids, Vcl.DBGrids;
 // This was a comment that was edited
 // Now adding this in Delphi - Richard Tully added this
+// Line three
 type
   TForm6 = class(TForm)
     Button1: TButton;
