@@ -113,7 +113,7 @@ end;
 
 procedure TForm6.Button4Click(Sender: TObject);
 begin
-  showmessage('This was a test');
+  showmessage('This was a test 2');
 end;
 
 procedure TForm6.DBGrid1TitleClick(Column: TColumn);
