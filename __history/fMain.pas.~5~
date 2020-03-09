@@ -21,6 +21,7 @@ type
     Button3: TButton;
     cdsNum: TIntegerField;
     Button4: TButton;
+    btn2: TButton;
     procedure Button1Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure DBGrid1TitleClick(Column: TColumn);
@@ -28,8 +29,8 @@ type
     procedure Button3Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);
   private
-    { Private declarations }
-  public                                                         // dkdsajhfkjdahf
+    { Private declarations }                             // tewst
+  public
     { Public declarations }
   end;
 

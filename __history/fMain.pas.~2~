@@ -29,7 +29,7 @@ type
     procedure Button4Click(Sender: TObject);
   private
     { Private declarations }
-  public                                                         // dkdsajhfkjdahf
+  public
     { Public declarations }
   end;
 
@@ -113,7 +113,7 @@ end;
 
 procedure TForm6.Button4Click(Sender: TObject);
 begin
-  showmessage('This was a test 2');
+  showmessage('This was a test');
 end;
 
 procedure TForm6.DBGrid1TitleClick(Column: TColumn);
