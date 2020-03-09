@@ -29,7 +29,7 @@ type
     procedure Button4Click(Sender: TObject);
   private
     { Private declarations }
-  public                                                         // This is now OK  - or is it
+  public                                                         // This is now OK  IT IS
     { Public declarations }
   end;
 
